@@ -69,5 +69,14 @@
   <footer>
     <p>&copy; 2026 TownshipMarket | Empowering Local Traders</p>
   </footer>
+  <script>
+  
+  document.querySelector("input[type='text']").addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+      alert("Searching for: " + this.value);
+    }
+  });
+</script>
+
 </body>
 </html>
