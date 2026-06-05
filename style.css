@@ -68,6 +68,31 @@ button {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.card {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* keeps images neat */
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.card-text {
+  color: #007b5e;
+  font-size: 1.1rem;
+}
+
 
 footer {
   background: #333;
