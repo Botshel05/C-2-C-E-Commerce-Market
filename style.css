@@ -28,18 +28,18 @@ input[type="text"] {
 }
 
 .card img {
-  width: 200px;       /* fixed width */
-  height: 200px;      /* fixed height */
-  object-fit: cover;  /* crops image to fit box neatly */
+  width: 200px;       
+  height: 200px;     
+  object-fit: cover;  
   border-radius: 5px;
   display: block;
-  margin: 0 auto;     /* centers image */
+  margin: 0 auto;     
 }
 
 .product img {
-  width: 300px;       /* larger for product detail page */
+  width: 300px;       
   height: 300px;
-  object-fit: contain; /* keeps full image visible */
+  object-fit: contain; 
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -79,7 +79,7 @@ button {
 .card img {
   width: 200px;
   height: 200px;
-  object-fit: cover; /* keeps images neat */
+  object-fit: cover; 
   margin-bottom: 10px;
 }
 
@@ -92,7 +92,7 @@ button {
   color: #007b5e;
   font-size: 1.1rem;
 }
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +100,7 @@ button {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar */
+
 .navbar {
   background: #007b5e;
   color: white;
@@ -125,7 +125,7 @@ button {
   cursor: pointer;
 }
 
-/* Hero Banner */
+
 .hero {
   background: #f4f4f4;
   text-align: center;
@@ -142,7 +142,7 @@ button {
 }
 .btn:hover { background: #005f46; }
 
-/* Products */
+
 .products {
   padding: 2rem;
   text-align: center;
@@ -172,7 +172,7 @@ button {
   margin: 0.5rem 0;
 }
 
-/* Categories */
+
 .categories {
   background: #f9f9f9;
   padding: 2rem;
@@ -191,7 +191,7 @@ button {
   border-radius: 5px;
 }
 
-/* Why Choose Us */
+
 .why-choose {
   padding: 2rem;
   text-align: center;
@@ -205,7 +205,7 @@ button {
 .why-grid div {
   max-width: 250px;
 }
-/* Product Detail Page */
+
 .product-detail {
   padding: 2rem;
 }
@@ -246,7 +246,7 @@ button {
 }
 
 
-/* Footer */
+
 footer {
   background: #007b5e;
   color: white;
