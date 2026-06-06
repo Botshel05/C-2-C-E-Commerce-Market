@@ -3,31 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Running Shoes | TownshipMarket</title>
+  <title>Product Details | TownshipMarket</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Running Shoes</h1>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">TownshipMarket</h1>
+    <form class="search-bar">
+      <input type="text" placeholder="Search products...">
+       <button type="submit">Search</button>
+    </form>
   </header>
 
-  <section class="product">
-    <img src="Running Shoes.png" alt="Running Shoes">
-    <div class="details">
-      <h2>R850</h2>
-      <p><strong>Seller:</strong> Joe’s Gear</p>
-      <p><strong>Condition:</strong> New</p>
-      <p>Lightweight running shoes perfect for daily training.</p>
-      <button>Buy Now</button>
+  <!-- Product Detail Section -->
+  <section class="product-detail">
+    <div class="product-container">
+      <!-- Product Image -->
+      <div class="product-image">
+        <img src="SmartPhone.png" alt="Smartphone">
+      </div>
+
+      <!-- Product Info -->
+      <div class="product-info">
+        <h2>Smartphone</h2>
+        <p class="price">R26,999</p>
+        <p class="description">
+          This smartphone features a sleek design, high-resolution display, and long-lasting battery.
+          Perfect for staying connected, browsing the web, and capturing memories.
+        </p>
+        <a href="https://yourproject.epizy.com/buy.php?productID=smartphone" class="btn">Buy Now</a>
+      </div>
     </div>
   </section>
-
   <section class="reviews">
-    <h3>Customer Reviews</h3>
-    <p>⭐ ⭐ ⭐ ⭐ ⭐  Excellent quality and fast delivery!</p>
+    <h3>Customer Reviews</h3>
+    <p>⭐ ⭐ ⭐ ⭐ ⭐ Excellent quality and fast delivery!</p>
   </section>
   <script>
-  
   document.querySelector("button").addEventListener("click", function() {
     alert("Thank you for your purchase! Your order has been placed.");
   });
